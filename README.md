@@ -1,2 +1,1 @@
-# aiharaproject.github.io
-Github website repository
+Selamat datang di rapository Pertama Aihara Project
