@@ -1,0 +1,109 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(aset/bbburst.svg);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    width: 60%;
+    height: 100vh;
+    margin-left: 40px;
+    color: black;
+    font-size: 1em;
+    
+}
+.header h1{
+    margin-left: 20px;
+    font-size: 3.5em;
+    padding-top: 150px;
+}
+.header p{
+    font-size: 2em;
+}
+@media screen and (max-width: 770px) {
+    .header{
+        width: 70%;
+        font-size: 2vw;
+        padding-top: 10px;
+    }
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 120px;
+}
+h2{
+    text-align: left;
+    font-size: 2em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1-1{
+    text-align: center;
+    line-height: 0.5;
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    line-height: 0.1;
+    border: 1px solid black;
+}
+.box-1-1 h3, p{
+    text-align: left;
+    margin-left: 20px;
+}
+.konten{
+    line-height: 1
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.box-1-2{
+    text-align: center;
+    line-height: 0.5;
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    line-height: 0.1;
+    border: 1px solid white;
+}
+.box-1-2:hover{
+    border: 1px solid black;
+}
+.box-1-2 h3, p{
+    text-align: left;
+    margin-left: 20px;
+}
+.address{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.address img{
+    width: 32px;
+    margin-right: 20px;
+}

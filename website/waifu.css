@@ -1,0 +1,24 @@
+html{
+    font-family:win-bug-omega, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+img {
+    width: 100%;
+  }
+  .div{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .set {
+    border: 1px solid; 
+    color: black;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+  }
+  .box-img{
+    text-align: center;
+    justify-content: center;
+  }

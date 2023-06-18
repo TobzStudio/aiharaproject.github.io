@@ -1,0 +1,70 @@
+html{
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: normal;
+    font-family:win-bug-omega, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.box{
+  max-width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.box-img{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.box h2{
+    text-align: left;
+    font-size: 1.5em;
+    color: black;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+body{
+  margin-left: 20px;
+}
+.div {
+    overflow: hidden;
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 3px;
+  }
+  .div p{
+    overflow: hidden;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: right;
+    justify-content: center;
+  }
+  
+  .div img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 0%;
+    text-align: justify;
+  }
+  .div:active{
+    background-color: gray;
+    width: auto;
+    height: 85%;
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    z-index: 9999;
+    box-shadow: 1px 1px 1px black;
+  }
